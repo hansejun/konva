@@ -1,3 +1,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom-styles .excalidraw {
+  --color-primary: #fcc6d9;
+  --color-primary-darker: #f783ac;
+  --color-primary-darkest: #e64980;
+  --color-primary-light: #f2a9c4;
+  --bg-primary: blue;
+}
+
+.custom-styles .excalidraw.theme--dark {
+  --color-primary: #d494aa;
+  --color-primary-darker: #d64c7e;
+  --color-primary-darkest: #e86e99;
+  --color-primary-light: #dcbec9;
+  --color-primary: blue;
+}
+
+.FixedSideContainer {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.custom-styles {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.excalidraw {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.App-bottom-bar {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.excalidraw__canvas {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.excalidraw__canvas {
+  background-color: red;
+  fill: red;
+}
+main {
+  background-color: blue;
+}
+.excalidraw-contextMenuContainer {
+  background-color: green;
+}

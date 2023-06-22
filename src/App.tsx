@@ -1,8 +1,8 @@
-import Router from "./router";
+import Router from './router';
 
 function App() {
   return (
-    <div className="flex h-screen items-center justify-center bg-red-500">
+    <div className="flex h-screen items-center justify-center  ">
       <Router />
     </div>
   );
